@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Rhinoceros 3D Lock & Temporary Files
+*.rhl
+*.3dm.rhl
+*.~3dm
+*.bak
+
+# CAD / Slicer temp files
+*.tmp
+*~
