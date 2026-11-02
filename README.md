@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Format: 3DM / STL / STEP / 3MF](https://img.shields.io/badge/CAD-Rhino%20%7C%20STL%20%7C%20STEP-green.svg)](#文件架构说明)
+[![MakerWorld](https://img.shields.io/badge/MakerWorld-Model%20Page-orange.svg)](https://makerworld.com/zh/models/3532041-bronicas-m65#profileId-4038566)
 
 本项目为 **Bronica（勃朗尼卡 / 碧浪之家，如 Bronica S / S2 / S2A / EC 等中画幅相机系统）** 与 **M65 螺口对焦筒 / 镜头卡口** 的互转与改装适配套件。包含完整的工业建模源文件（Rhino `.3dm`）、可直接 3D 打印的网格模型（`.stl`）、切片工程（`.3mf` / `.gcode.3mf`）及参考工业图纸（`.step`）。
 
@@ -23,12 +24,14 @@ Bronica S 系列中画幅相机拥有经典的卡口系统（机身内外双卡�
 
 ```text
 Bronica-M65/
-├── 01-工作文件/                      # Rhino 3D (Rhinoceros) 建模源工程文件
+├── 01-工作文件/                      # Rhino 3D (Rhinoceros) 建模源工程文件与文档
 │   ├── 1-M65-Bronica（Body）.3dm     # M65 转 Bronica 机身卡口源文件
 │   ├── 2-Kiev88B.3dm                 # Kiev 88B 卡口测绘与转接源文件
 │   ├── 3-⌀62.5（Lens）-M65.3dm       # ⌀62.5mm 镜筒转 M65 源文件
 │   ├── 4-Bronica（Lens）-M65.3dm     # Bronica 镜头转 M65 源文件
-│   └── BronicaS-M65.3dm              # Bronica S 专用转接源文件
+│   ├── BronicaS-M65.3dm              # Bronica S 专用转接源文件
+│   ├── BronicaS-M65.docx             # 拓竹 MakerWorld 与 GitHub 发布说明文档
+│   └── BronicaS-M65.pdf              # 导出的 PDF 说明文档
 │
 ├── 02-打印文件/                      # 3D 打印网格与工程模型 (STL & 3MF)
 │   ├── M65-bronica-1.stl ~ 5.stl     # M65 转 Bronica 机身迭代件（推荐使用 v5 版本）
